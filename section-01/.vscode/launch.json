@@ -10,7 +10,7 @@
         "type": "go",
         "request": "launch",
         "mode": "debug",
-        "program": "${workspaceFolder}/csvformats/example/main.go",
+        "program": "${workspaceFolder}/temp_files/example/main.go",
         "env": {},
         "args": [],
         "showLog": true
