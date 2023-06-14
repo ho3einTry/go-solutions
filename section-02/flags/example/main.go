@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-
 	"github.com/ho3eintry/go-solutions/section-02/flags"
 )
 

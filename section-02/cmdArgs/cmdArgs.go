@@ -42,6 +42,7 @@ func (m *MenuConf) SetupMenu() *flag.FlagSet {
 func (m *MenuConf) GetSubMenu() *flag.FlagSet {
 	submenu := flag.NewFlagSet("submenu", flag.ExitOnError)
 	submenu.BoolVar(&m.Goodbye, "goodbye", false, "Say goodbye instead of hello")
+	submenu.BoolVar(&m.Goodbye, "gb", false, "Say goodbye instead of hello (shorthand)")
 
 	submenu.Usage = func() {
 		fmt.Printf(greetUsage, os.Args[0])

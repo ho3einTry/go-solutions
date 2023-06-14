@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// CountTheWays Named types
 type CountTheWays []int //is name typing
 
 func (c *CountTheWays) String() string {
